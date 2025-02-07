@@ -8,13 +8,13 @@ st.set_page_config(page_title='Pridiction od Disease Outbreak',
                    layout='wide',
                    page_icon="🧑‍⚕️")
 
-# getting the working directory of the main.py
+# Getting the working directory of the script
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-# loading the saved models
-diabetes_model = pickle.load(open("C:/Users/HP/OneDrive/Desktop/Prediction/Saved_model/diabetes_model.sav", 'rb'))
-heart_disease_model = pickle.load(open("C:/Users/HP/OneDrive/Desktop/Prediction/Saved_model/heart_model.sav", 'rb'))
-parkinsons_model = pickle.load(open("C:/Users/HP/OneDrive/Desktop/Prediction/Saved_model/parkinsons_model.sav", 'rb'))
+# Loading the saved models using relative paths
+diabetes_model = pickle.load(open(os.path.join(working_dir, "models/diabetes_model.sav"), 'rb'))
+heart_disease_model = pickle.load(open(os.path.join(working_dir, "models/heart_model.sav"), 'rb'))
+parkinsons_model = pickle.load(open(os.path.join(working_dir, "models/parkinsons_model.sav"), 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
