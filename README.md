@@ -28,6 +28,6 @@ streamlit run web.py
 4️⃣ Enter the required details and get predictions! 🎯
 
 ## 📊 How It Works
-User inputs health parameters
-Pre-trained ML models process the data
-Prediction is displayed on the UI
+1. User inputs health parameters
+2. Pre-trained ML models process the data
+3. Prediction is displayed on the UI
