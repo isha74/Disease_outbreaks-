@@ -33,5 +33,5 @@ streamlit run web.py
 2. Pre-trained ML models process the data
 3. Prediction is displayed on the UI
 
-🚀 **Live Link:** Disease Prediction
-https://disease-outbreaks-predictor.streamlit.app
+## 🚀 Live Link:
+**Disease Prediction**  https://disease-outbreaks-predictor.streamlit.app
