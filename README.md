@@ -25,9 +25,13 @@ pip install -r requirements.txt
 
 3️⃣ Run the Application
 streamlit run web.py
+
 4️⃣ Enter the required details and get predictions! 🎯
 
 ## 📊 How It Works
 1. User inputs health parameters
 2. Pre-trained ML models process the data
 3. Prediction is displayed on the UI
+
+🚀 **Live Link:** Disease Prediction
+https://disease-outbreaks-predictor.streamlit.app
